@@ -1,0 +1,34 @@
+{
+  "auth": {
+    "intro_scroll_hint": "सुरुवात करण्यासाठी स्क्रोल करा",
+    "intro_welcome_to": "स्वागत आहे",
+    "intro_brand": "FarmSync मध्ये",
+    "intro_tagline": "स्मार्ट शेती, सोपे व्यवस्थापन",
+    "intro_skip": "इंट्रो वगळा",
+    "email_or_mobile": "ईमेल किंवा मोबाईल नंबर",
+    "identifier_placeholder": "उदा. 98220 14285 किंवा farmer@farmsync.io",
+    "password": "पासवर्ड",
+    "forgot_password": "पासवर्ड विसरलात?",
+    "remember_me": "माझी माहिती लक्षात ठेवा",
+    "sign_in": "साइन इन करा",
+    "checking": "तपासत आहे...",
+    "login_description": "पिके, बाजार भाव, हवामान अंदाज आणि शेती नोंदी व्यवस्थापित करण्यासाठी साइन इन करा.",
+    "new_to_farmsync": "FarmSync वर नवीन आहात किंवा आमंत्रण कोड आहे?",
+    "create_account_or_join": "नवीन खाते उघडा किंवा आमंत्रण कोडने जोडा",
+    "replay_intro": "इंट्रो पुन्हा पहा",
+    "help_support": "मदत व सहकार्य",
+    "otp_login": "मोबाईल OTP",
+    "password_login": "पासवर्ड लॉगिन",
+    "otp_placeholder": "६-अंकी OTP टाका (उदा. 123456)",
+    "send_otp": "OTP पाठवा",
+    "resend_otp": "पुन्हा पाठवा",
+    "otp_sent": "आपल्या मोबाईलवर OTP पाठवला आहे",
+    "invalid_otp": "अवैध OTP कोड. कृपया 123456 टाका किंवा नवीन कोड मागवा.",
+    "loading_scene": "फार्म दृश्य लोड होत आहे...",
+    "signed_out": "तुम्ही FarmSync मधून बाहेर पडला आहात.",
+    "registered": "खाते तयार झाले. पुढे चालू ठेवण्यासाठी साइन इन करा."
+  },
+  "common": {
+    "app_tagline": "प्रत्येक हंगामासाठी आधुनिक शेती व्यवस्थापन"
+  }
+}

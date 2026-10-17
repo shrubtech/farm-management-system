@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #FBF9F5;
+  --foreground: #18251C;
+  --card: #FFFFFF;
+  --card-foreground: #18251C;
+  --card-border: #ECE6DB;
+  --muted: #6B786E;
+  --muted-light: #F4EFEB;
+  --primary-green: #173426;
+  --primary-accent: #2E7D47;
+  --amber-record: #E7AC38;
+  --alert-coral: #DF5D52;
+}
+
+.dark {
+  --background: #0E1712;
+  --foreground: #EAF2EC;
+  --card: #152219;
+  --card-foreground: #EAF2EC;
+  --card-border: #233528;
+  --muted: #8E9F92;
+  --muted-light: #1C2B21;
+  --primary-green: #1E3F2F;
+  --primary-accent: #3E9E5E;
+  --amber-record: #F5B642;
+  --alert-coral: #F87171;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: 'Noto Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Touch Friendly Targets on Mobile for Farmers */
+@media (max-width: 640px) {
+  button, input, select {
+    min-height: 44px;
+  }
+}
+
+/* Custom smooth scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #D8D2C5;
+  border-radius: 9999px;
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: #2D4233;
+}
+
+/* Print Styles for Agricultural Reports & Mandi Invoices */
+@media print {
+  aside, header, nav, .no-print, button {
+    display: none !important;
+  }
+  main {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+  }
+  body {
+    background: white !important;
+    color: black !important;
+  }
+}
