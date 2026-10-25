@@ -25,7 +25,7 @@ A web application designed to help manage farm activities and resources.
 4. Run `npm install`.
 5. Configure the required environment variables.
 6. Run `npm run dev`.
-7. Open http://localhost:3000 in your browser.
+
 
 ## Future Improvements
 - AI-powered farming insights
